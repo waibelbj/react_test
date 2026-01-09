@@ -1,0 +1,46 @@
+[00:00:00.744] Server  LOG     ✓ Ready in 524ms
+[00:00:03.838] Server  ERROR   ⨯ ./app/page.js:1:7
+Parsing ecmascript source code failed
+> 1 | imprt LikeButton from './like-button';
+    |       ^^^^^^^^^^
+  2 |
+  3 | function Header({ title }) {
+  4 |     return <h1>{title ? title : 'Default title'}</h1>;
+
+Expected ';', '}' or <eof>
+
+
+[00:00:04.284] Browser ERROR   uncaughtError: Error: ./app/page.js:1:7
+Parsing ecmascript source code failed
+> 1 | imprt LikeButton from './like-button';
+    |       ^^^^^^^^^^
+  2 |
+  3 | function Header({ title }) {
+  4 |     return <h1>{title ? title : 'Default title'}</h1>;
+
+Expected ';', '}' or <eof>
+
+
+[00:00:04.698] Browser ERROR   ./app/page.js:1:7
+Parsing ecmascript source code failed
+> 1 | imprt LikeButton from './like-button';
+    |       ^^^^^^^^^^
+  2 |
+  3 | function Header({ title }) {
+  4 |     return <h1>{title ? title : 'Default title'}</h1>;
+
+Expected ';', '}' or <eof>
+[00:00:04.699] Browser ERROR   ./app/page.js:1:7
+Parsing ecmascript source code failed
+> 1 | imprt LikeButton from './like-button';
+    |       ^^^^^^^^^^
+  2 |
+  3 | function Header({ title }) {
+  4 |     return <h1>{title ? title : 'Default title'}</h1>;
+
+Expected ';', '}' or <eof>
+[00:00:17.955] Server  LOG     ✓ Compiled in 245ms
+[00:00:18.822] Server  ERROR   ⨯ ReferenceError: handleClick is not defined
+[00:00:19.230] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:19.230] Browser ERROR   uncaughtError: ReferenceError: handleClick is not defined
+[00:01:27.598] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
